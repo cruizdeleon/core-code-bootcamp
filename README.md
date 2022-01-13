@@ -66,3 +66,50 @@ Flowcharts are tools very helpful to separate and follow a sequential order of a
 High-level and low-level languages
 
 The main difference between is that the programmer can easily understand the lines of source code, on his common language, most part of time, written in english and then the compiler or interpreter transalates to binary code.![image](https://user-images.githubusercontent.com/73202651/149052007-e554a52a-7fe8-41fe-b447-a80e0e3b699f.png)
+
+BINARY AND HEXADECIMAL
+
+
+Binary is a base-2 number system that is made up only for two numbers or digits "zero" and "one" this is the base of any computer processsor, thats the way the processor reads instructions, any zero means off, and any number one means on.
+
+Hexadecimal number system is a type of system that has a base on 16 symbols, these symbols or values are 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F this sistem is used to simplify how binary instructions are represented.
+
+
+MY DATE OF BIRTH IN BINARY
+
+First, we took the number 1988, we must divide the number by 2, each time we divide by 2 and the results gives us a 1 remainder we will take it like a "0" and if the remainder give us a "1" must be taken as "1"
+
+1988/2 =994 =     0
+994/2   =497 =     1
+497/2   =248.5 =  1
+248/2  = 124 =     1
+124/2 = 62 =        1
+62/2=31 =            1
+31/2=15.5 =         0
+15/2=7.5 =           0
+7.5/2=3.75           0
+3/2=1.5                 1
+1/2=0.5                 0
+0.5/2=0.25           0
+
+On Hexadecimal we must guide by a table that gives a value to each 4 binary numbers
+
+ 
+
+So the number 011111000100 in hexadecimal representation must be shown: 7C4
+
+TRANSLATE 51966 INTO HEXADECIMAL AND BINARY
+
+TO TRANSLATE INTO BINARY
+
+We must read the instruction shown before, divide the hole number by 2 and following the instruction must result
+
+1100101011111110
+
+In HEXADECIMAL following the table of equal values will give
+
+1110=c
+1010=a
+1111=f
+1110=e
+![image](https://user-images.githubusercontent.com/73202651/149251638-9a027c38-924b-4487-9ad5-1a86ce74e968.png)
