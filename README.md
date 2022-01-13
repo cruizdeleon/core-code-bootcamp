@@ -113,3 +113,16 @@ In HEXADECIMAL following the table of equal values will give
 1111=f
 1110=e
 ![image](https://user-images.githubusercontent.com/73202651/149251638-9a027c38-924b-4487-9ad5-1a86ce74e968.png)
+
+THURSDAY CHALLENGE
+
+APPLICATIONS ON BUILT ON JAVASCRIPT
+
+by 2014 Nextflix was built on javascript for the font-end and the back-end was handled by a large running groovy scripts, this forced developers to use different programming languages, Node.js eliminated this problem, by using Javascript framework on the front-end and back-end, developers reduced their workload and increased the quality of the final web application. 
+
+Candy crush saga is one of the most successful video games of all time realeased as a facebook web app, the free to play game developed on javascript programming languate, the flexible nature of this framework enabled developers to create this mobile app.
+
+facebook continues like one of the most important corporate suporters of the javascript development library. This is the reason why react was developed by facebook on 2015
+
+linkedin uses javascript for the front-end and back-end
+
