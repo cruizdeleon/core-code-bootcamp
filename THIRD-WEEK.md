@@ -32,3 +32,82 @@ decodeMorse = function(morseCode){
   }
   return morseCode.trim().split('   ').map(decodeMorseWord).join(' ');
 }
+
+"TUESDAY CHALLENGES"
+
+function order(words){
+  // ...
+   if (words.length == 0){return words}
+  let wordsarr = words.split(' ');
+  let indarr = words.match(/\d/g);
+  let neword = [];
+  for (let i=1;i<=indarr.length;i++){
+    let ind = indarr.indexOf(i.toString())
+    neword.push(wordsarr[ind])
+  }
+  return neword.join(' ')
+}
+
+
+function duplicateCount(text){
+  text = text.toLowerCase().split("")
+  const countedletters = text.reduce((allLetters, letter) => {
+    if(letter in allLetters) {
+    allLetters[letter]++
+    } 
+    else {
+    allLetters[letter] = 1
+    }
+    return allLetters 
+    }, {})
+  const filterDup = Object.values(countedletters).filter((duplicate) => duplicate >=2)
+  return filterDup.length
+}
+
+
+function pigIt(str){
+  str = str.trim().split(/\s{1,}/);
+    return str.map(val => {
+        if (/^[A-Za-z]+$/.test(val)) {
+            return `${val.slice(1)}${val.slice(0, 1)}ay`;
+        }
+        return val;
+    }).join(' ');
+}
+
+"WEDNESDAY CHALLENGES"
+
+function validParentheses(parens) {
+  var n = 0;
+  for (var i = 0; i < parens.length; i++) {
+    if (parens[i] == '(') n++;
+    if (parens[i] == ')') n--;
+    if (n < 0) return false;
+  }
+  
+  return n == 0;
+}
+
+function toCamelCase(str){
+str = str.split('');
+  return str.map(function(el, i){
+    if(el == '-' || el == '_'){
+      el = str[i+1].toUpperCase();
+      str.splice(i+1, 1);
+    }
+    return el;
+  }).join('');
+}
+
+var uniqueInOrder=function(iterable){
+    var arr = [];
+    for (var i=0;i<iterable.length;i++) {
+
+    if (iterable[i] !== iterable[i+1]) {
+
+
+      arr.push(iterable[i]);
+    }
+  }
+  return arr;
+}
