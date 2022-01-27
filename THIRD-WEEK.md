@@ -111,3 +111,35 @@ var uniqueInOrder=function(iterable){
   }
   return arr;
 }
+
+"THURSDAY CHALLENGES"
+
+function foldArray(array, runs)
+{
+  const arrays = [], c = array.slice();
+  while (c.length) arrays.push(c.pop() + (c.shift() || 0));
+  return runs - 1 ? foldArray(arrays, runs - 1) : arrays;
+}
+
+var encryptThis = function(text) {
+  if (text==''){
+    return '';
+      
+      }
+  else{
+    let s= text.split('');
+    let x= s.map(element =>{
+      let a= element.split('');
+      a[0]=element.charCodeAt(0);
+      [a[1],a[a.lenght-1]]=[a[a.lenght-1], a[1]];
+      return a.join('');});
+    return x.join('');
+  }
+}
+******aun me quedó un error*****
+
+const list = names =>
+  names.map(x=>x.name)
+    .join(', ')
+    .replace(/,\s(\w+)$/,' & $1');
+
